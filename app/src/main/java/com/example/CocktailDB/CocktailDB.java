@@ -58,7 +58,7 @@ public class CocktailDB extends SQLiteOpenHelper {
 
         db.execSQL("INSERT INTO BaseAlcohol (id, name) VALUES (1, 'Vodka')");
         db.execSQL("INSERT INTO BaseAlcohol (id, name) VALUES (2, 'Rum')");
-        db.execSQL("INSERT INTO Ingredient (id, name) VALUES (1, 'Zitrone')");
+        db.execSQL("INSERT INTO Ingredient (id, name) VALUES (1, 'Orange')");
         db.execSQL("INSERT INTO Cocktail (id, name, description, picturePath) VALUES (1, 'Vodka Zitrone', 'Bester Cocktaile ever', '')");
 
         db.execSQL("INSERT INTO BaseAlcoholAndCocktail (idCocktail, idBaseAlcohol) VALUES (1, 1)");
